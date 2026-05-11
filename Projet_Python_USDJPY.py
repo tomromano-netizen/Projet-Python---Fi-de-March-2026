@@ -322,6 +322,7 @@ col_title, col_badge = st.columns([5, 1])
 with col_title:
     st.markdown("# 📊 USD/JPY FX Options — Stratégie Short Vol")
     st.caption("Modèle Garman-Kohlhagen · Greeks · Vol Implicite · Takaichi Fév. 2026")
+    st.caption("Projet réalisé par : Mame FALL · Tom ROMANO · Eva DEBAY · Selim BENYAMINA")
 with col_badge:
     if use_api and spot_data:
         st.markdown('<span class="badge-live">● LIVE</span>', unsafe_allow_html=True)
